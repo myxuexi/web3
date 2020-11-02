@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cornsilk;
+        }
+        .main{
+            height: 500px;
+            width: 800px;
+            background-color: aquamarine;
+            position: absolute;
+            left: 25%;
+            top: 10%;
+
+        }
+        .mleft{
+            position: absolute;
+            background-color: red;
+            height: 90%;
+            width: 30%;
+            top: 5%;
+            
+        }
+        .mli{
+            margin: 40px 5px 40px 5px;
+            height:40px ;
+            width: 230px;
+            background-color: darkorange;
+            border-radius: 10%;
+            text-align: center;
+        }
+        .mli a{
+            text-decoration: none;
+            text-align: center;
+            height: 100%;
+            display: block;
+            line-height: 40px;
+            
+        }
+        .mli a:active{
+            background-color: aqua;
+        }
+        .mright{
+            position: relative;
+            float: right;
+            height: 90%;
+            width: 70%;
+            top: 5%;
+            background-color: chartreuse;
+        }
+        .mright div:target{
+            display: block;
+        }
+        .mln {
+            display: none;
+            background-color: aqua;
+        }
+        .mln p{
+            margin: 0px;
+            text-indent: 2em;
+        }
+        .img{
+            position: relative;
+            left: 90px;
+            height: 200px;
+            width: 400px;
+            background-color: aliceblue;
+            background: url(../express/background.png);
+        }
+        #news img{
+            display: block;
+            margin: 0 auto;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="mleft">
+            <div class="mli"><a href="#home">学校概况</a></div>
+            <div class="mli"><a href="#news">新闻中心</a></div>
+            <div class="mli"><a href="#ji">机构设施</a></div>
+            <div class="mli"><a href="#ter">师资队伍</a></div>
+            <div class="mli"><a href="#xue">教育教学</a></div>
+        </div>
+        <div class="mright">
+            <div id="home" class="mln" >
+                <div class="img">
+                </div>
+                <p>江西软件大学</p>
+            </div>
+            <div  id="news" class="mln" >
+                <img src="" alt="">
+                <p>大新闻</p>
+            </div>
+            <div id="ji" class="mln">
+                <p>啊搜狐的发表</p>
+            </div>
+            <div id="ter" class="mln" >
+                <p>阿斯蒂芬基本电费</p>
+            </div>
+            <div id="xue" class="mln" >
+                <p>我打发时光</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
